@@ -1,0 +1,243 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Manrope", serif;
+  letter-spacing: -0.03em;
+  color: rgba(18, 18, 18, 1);
+}
+section {
+  margin-bottom: 150px;
+}
+h1 {
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-family: "Manrope", serif;
+  letter-spacing: -0.03em;
+  font-size: 60px;
+  line-height: 60px;
+}
+h2 {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+}
+h3 {
+  font-size: 30px;
+}
+footer {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.container {
+  margin: 0 auto;
+  width: 1150px;
+}
+.section-nav {
+  margin-top: 33px;
+}
+.logo-link {
+  display: inline-block;
+}
+.logo {
+  margin-top: -1px;
+  margin-left: -1px;
+  height: 23px;
+}
+.nav {
+  vertical-align: top;
+  float: right;
+}
+.nav-link {
+  margin-right: 58px;
+  padding-bottom: 2px;
+  line-height: 25px;
+  text-align: center;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #101010;
+  text-decoration: none;
+}
+.nav-link:last-child {
+  margin-right: 0;
+}
+.nav-link:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.interior {
+  position: relative;
+  height: 500px;
+  margin-left: -1px;
+  background-image: url("interior.jpg");
+  background-repeat: no-repeat;
+}
+.image-text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  width: 430px;
+  font-size: 20px;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 1);
+}
+.description {
+  margin-top: 31.5px;
+  margin-left: 3px;
+  margin-bottom: 29px;
+  width: 1050px;
+  letter-spacing: -0.03em;
+  font-size: 45px;
+  line-height: 61px;
+}
+.about-us__link {
+  margin-left: -1px;
+  display: inline-block;
+  width: 256px;
+  line-height: 64px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+  border: #ad1818;
+  background: #ad1818;
+  border: 1px solid #ad1818;
+  text-decoration: none;
+}
+.about-us__link:hover {
+  background-color: #ffffff;
+  color: #ad1818;
+}
+.projects {
+  margin-top: 151px;
+}
+.projects__item {
+  margin-bottom: 93.5px;
+}
+.projects__item__image {
+  margin-bottom: 18px;
+}
+.projects__item__title {
+  margin-bottom: 24px;
+  font-size: 30px;
+}
+.projects__item__link {
+  margin-left: 2px;
+  font-size: 20px;
+  text-decoration: none;
+  color: #ad1818;
+}
+.all-projects {
+  margin-top: -3px;
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 152px;
+  font-size: 30px;
+  color: #ad1818;
+  border: 1px solid #ad1818;
+}
+.all-projects:hover {
+  color: #ffffff;
+  background-color: #ad1818;
+}
+.black-section {
+  background-color: black;
+}
+.services {
+  margin-bottom: 0;
+  padding-top: 151px;
+  padding-bottom: 156px;
+}
+.services__title {
+  margin-left: 2px;
+  margin-bottom: 34px;
+  color: #ffffff;
+}
+.services__item {
+  margin-bottom: 66px;
+}
+.services__item:nth-last-child(1) {
+  margin-bottom: 0;
+}
+.service__image {
+  margin-bottom: 17.5px;
+}
+.service__title {
+  color: #ffffff;
+}
+.room {
+  margin-bottom: 187px;
+  position: relative;
+  height: 716px;
+  background-image: url("forest-landscape.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 45%;
+}
+.room__text {
+  position: absolute;
+  bottom: 60px;
+  font-size: 30px;
+  line-height: 41px;
+  color: #ffffff;
+}
+.contacts {
+  margin-bottom: 157px;
+}
+.contacts__title {
+  margin-bottom: 32px;
+  position: relative;
+}
+.contacts__title::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -5px;
+  bottom: 38px;
+  width: 24px;
+  height: 24px;
+  background-image: url("phone.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+}
+.contacts__item {
+  margin-bottom: 28px;
+  display: block;
+  font-size: 60px;
+  text-decoration: none;
+  border-bottom: 3px solid white;
+  color: #000;
+}
+.contacts__item:last-child {
+  margin-bottom: 0;
+}
+.contacts__item:hover {
+  color: gray;
+  display: inline-block;
+  border-bottom: 3px solid gray;
+}
+.footer-container {
+  margin: 0 auto;
+  width: 475px;
+}
+.footer-nav {
+  margin-bottom: 90px;
+}
+.footer-nav-link {
+  font-size: 18px;
+  color: #ffffff;
+}
+.footer-nav-link:hover {
+  border: none;
+}
+.last-inscription {
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  opacity: 50%;
+}
